@@ -1,4 +1,60 @@
-#container{
+* {
+    font-family: Okra, Helvetica, sans-serif;
+}
+
+body {
     display: flex;
+    justify-content: center;
     align-items: center;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+}
+
+#content {
+    /* width: 50%; */
+    background: url("./img/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+    padding: 20px;
+    margin-top: 100px;
+    border: 1px solid lightgray;
+    padding: auto;
+}
+
+#heading {
+    text-align: center;
+}
+
+#content input {
+    width: 300px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 2px solid lightslategray;
+    color: black;
+    outline: none;
+    margin: 10px;
+    opacity: 0.8;
+}
+
+#btn {
+    margin-top: 10px;
+    margin-left: 12px;
+    padding: 10px;
+    align-items: center;
+    width: 320px;
+    border-radius: 8px;
+    border: 1px solid lightslategray;
+    color: black;
+    outline: none;
+    background-color:crimson;
+}
+
+#total {
+    margin-top: 20px;
 }
