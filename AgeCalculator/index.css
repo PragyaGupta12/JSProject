@@ -14,10 +14,12 @@ body{
     justify-content: center;
     align-items: center;
     background-color: whitesmoke;
-    width: 30%;
+    width: auto;
     border: 1px solid lightgray;
     border-radius: 8px;
     margin-top: 40px ;
+    margin: 20px;
+    padding: 20px;
 }
 #content{
     display: auto;
@@ -27,11 +29,12 @@ body{
 #content input{
     padding: 8px;
     margin-top: 10px;
-    margin:15px;
+    /* margin:15px; */
+    width: 250px;
 }
 #btn{
-    margin: 6px;
-    margin-left: 50px;
+    /* margin: 8px; */
+    margin-top: 10px;
     padding: 5px;
     border: 1px solid lightgray;
     border-radius: 2px;
